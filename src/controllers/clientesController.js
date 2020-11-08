@@ -18,7 +18,7 @@ const getAll = (req, res) => {
     if(err) {
       res.status(424).send({ message: err.message })
     }
-      res.status(201).send(clientes)
+      res.status(200).send(clientes)
   });
 };
 
@@ -33,11 +33,17 @@ const getCompradores = (req, res) => {
 };
 
 const getByCpf = (req, res) => {
-    console.log("getByCpf");
-      res.status(200).send("ok");
-    };
-
-
+    const cpf = req.params.cpf;
+    clientes.find({ cpf }, (err, cliente) => { if (err) {
+        res.status(424).send({ message: err.message });
+      } else if (cliente.length > 0) {
+        res.status(200).send(cliente);
+      } else {
+        res.status(404).send({message:"O cliente não foi encontrado"})
+      };
+    });
+  };
+  
 module.exports = {
     getAll,
     getCompradores,
