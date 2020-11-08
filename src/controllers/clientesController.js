@@ -24,8 +24,12 @@ const getAll = (req, res) => {
 
 
 const getCompradores = (req, res) => {
-    console.log("getCompradores");
-      res.status(200).send("ok");
+    clientes.find({comprou: true}, {nome:1, email: 1, _id: 0}, (err, clientes)=>{
+      if  (err) {
+        res.status(424).send({ message: err.message})
+      }
+      res.status(200).send(clientes)
+});
 };
 
 const getByCpf = (req, res) => {

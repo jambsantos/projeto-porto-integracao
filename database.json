@@ -1,0 +1,64 @@
+[   {
+    "nome": "Marcelo Silva",
+    "email": "marcelo.silva@gmail.com",
+    "cpf": 1235567991,
+    "dataNascimento": "08/01/1990",
+    "estadoCivil": "solteiro",
+    "telefone": 9449667788,
+    "comprou": true
+    },
+    {
+        "nome": "Jessica Monte",
+        "email": "jessica.monte@gmail.com",
+        "cpf": 1234567890,
+        "dataNascimento": "24/12/2000",
+        "estadoCivil": "solteira",
+        "telefone": 8199999999,
+        "comprou": true
+    },
+    {
+        "nome": "Jessiane Santos",
+        "email": "jessiane.santos@gmail.com",
+        "cpf": 1123456789,
+        "dataNascimento": "04/03/1990",
+        "estadoCivil": "solteira",
+        "telefone": 5599999999,
+        "comprou": true
+    },
+    {
+        "nome": "Marcos Santos",
+        "email": "marcos.santos@gmail.com",
+        "cpf": 2223456789,
+        "dataNascimento": "23/03/1980",
+        "estadoCivil": "casado",
+        "telefone": 9999999999,
+        "comprou": false
+    },
+    {
+        "nome": "Maria Bass",
+        "email": "maria.bass@gmail.com",
+        "cpf": 1234567890,
+        "dataNascimento": "16/12/1970",
+        "estadoCivil": "casado",
+        "telefone": 9999999988,
+        "comprou": true
+    },
+    {
+        "nome": "Talita Halt",
+        "email": "talita.halt@gmail.com",
+        "cpf": 1234567891,
+        "dataNascimento": "22/10/1970",
+        "estadoCivil": "casado",
+        "telefone": 9999997788,
+        "comprou": false
+    },
+    {
+        "nome": "Simone Silva",
+        "email": "simone.silva@gmail.com",
+        "cpf": 1234567991,
+        "dataNascimento": "08/07/1970",
+        "estadoCivil": "casado",
+        "telefone": 9999667788,
+        "comprou": true
+    }  
+]
